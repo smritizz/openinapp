@@ -1,5 +1,5 @@
 # OpeninApp Assignment
-The assignment is as follows:
+The assignment is as follows:<br>
 You are provided with 2 basic screens Dashboard UI. <br/>
 You need to convert the high Fidelity design into code using React/Next and CSS/SASS/SCSS/LESS/Tailwind CSS. <br/>
 <b>Use of any other CSS framework is prohibited.</b> <br/>
@@ -27,8 +27,7 @@ What you have to achieve -<br/>
 ## Live Link
 <h3></h3>
 
-## Preview 
-<br/>
+
 
 
 
