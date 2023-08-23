@@ -18,6 +18,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         'card': 'repeat(auto-fit, minmax(200px, 1fr))',
+        'card': 'repeat(auto-fit, minmax(200px, 1fr))',
       }
     },
   },
