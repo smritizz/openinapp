@@ -33,7 +33,7 @@ const Form = () => {
                 <p className="text-[#346bd4] my-5 mx-0 cursor-pointer">Forgot Password?</p>
 
                 <button
-                    onClick={() => alert("Please use Sign In with Google Button")}
+                    onClick={() => alert("You can only use 'Sign In with Google' Button to Sign In")}
                     className="font-Montserrat bg-black text-white rounded-[10px] p-3 text-base font-bold border-none cursor-pointer hover:scale-105 transition duration-500"
                 >
                     Sign In
