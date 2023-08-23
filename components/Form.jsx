@@ -6,7 +6,7 @@ const Form = () => {
     return (
         <div id="main-div" className="w-[386px]">
             <h1 className="text-4xl font-bold">Sign In</h1>
-            <p >Sign in to your account</p>
+            <p styles={{color:"red"}}>Sign in to your account</p>
             <div id="login-buttons" className="flex justify-between my-5 mx-0">
                 <button
                     onClick={() => signIn('google', { callbackUrl: '/dashboard' })}
