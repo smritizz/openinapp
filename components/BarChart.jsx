@@ -1,0 +1,66 @@
+import Chart from 'chart.js/auto';
+import { Line } from "react-chartjs-2";
+import BottomArrow from "../public/BottomArrow.png";
+import Image from "next/image";
+
+const BarChart = () => {
+    const options = {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 500,
+                ticks: {
+                    stepSize: 100,
+                },
+            },
+            x: {
+                grid: {
+                    display: false,
+                },
+            },
+        }
+    };
+
+    return (
+        <div id="mainGraphContainer" className="p-5 rounded-[10px] h-[370px] bg-white w-[95%] m-auto" >
+            <div className=" max-w-[99%] h-[300px] m-auto mb-3">
+                <div className="flex justify-between items-center">
+                    <div className="flex-[7]">
+                        <h3 className="font-bold text-2xl">Activities</h3>
+                    </div>
+                    <div className="flex-[8] flex justify-end gap-2 items-center">
+                        <p>May - June 2021</p>
+                        <Image src={BottomArrow} width={8} height={5} alt="Arrow" />
+                    </div>
+                </div>
+                <Line
+                    datasetIdKey="id"
+                    data={{
+                        labels: ["", "Week 1", "Week 2", "Week 3", "Week 4", ""],
+                        datasets: [
+                            {
+                                id: 1,
+                                label: "User",
+                                data: [100, 420, 140, 450, 180, 250],
+                                borderColor: "#9BDD7C",
+                                tension: 0.4,
+                            },
+                            {
+                                id: 2,
+                                label: "Guest",
+                                data: [200, 380, 205, 300, 220, 440],
+                                borderColor: "#E9A0A0",
+                                tension: 0.4,
+                            },
+                        ],
+                    }}
+                    options={options}
+                />
+            </div>
+        </div>
+    );
+};
+
+export default BarChart;
