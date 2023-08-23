@@ -10,7 +10,7 @@ const Navbar = () => {
     const [userImage, setUserImage] = useState("")
 
     const handleLogout = () => {
-        alert("Bye come back soon!");
+        alert("Want to Log out?");
         signOut("google", { callbackUrl: '/' });
     }
 
