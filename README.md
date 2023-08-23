@@ -1,4 +1,5 @@
-# OpeninApp Assignment - React.Js Developer (Intern)
+# OpeninApp Assignment
+The assignment is as follows:
 You are provided with 2 basic screens Dashboard UI. <br/>
 You need to convert the high Fidelity design into code using React/Next and CSS/SASS/SCSS/LESS/Tailwind CSS. <br/>
 <b>Use of any other CSS framework is prohibited.</b> <br/>
@@ -24,15 +25,11 @@ What you have to achieve -<br/>
 
 
 ## Live Link
-<h3>https://open-in-app-assignment.vercel.app</h3>
+<h3></h3>
 
 ## Preview 
 <br/>
 
-![image](https://github.com/PrateekPheonix/OpenInApp-Assignment/assets/76847182/a412d23f-f12a-442d-86fb-ab60ff17eb70)
-<br/>
-<br/>
-![image](https://github.com/PrateekPheonix/OpenInApp-Assignment/assets/76847182/87ce8c90-22f9-45cf-8948-7a606301205b)
 
 
 <hr/>
@@ -64,7 +61,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
 
 ## Deploy on Vercel
 
